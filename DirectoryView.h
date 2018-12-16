@@ -19,10 +19,7 @@ public:
     explicit DirectoryView(QWidget *parent = nullptr);
     QString getSaveLocation();
     void loadProject(QString projectLocation, QString newSaveLocation);
-
-public slots:
-    void openNewProject();
-
+    
 signals:
     void readCmakeFile(QString fileLocation);
     void readFile(QString fileLocation);
