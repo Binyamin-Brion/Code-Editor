@@ -16,7 +16,6 @@ set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.11.2\\5.11.2\\mingw53_32")
 
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Test REQUIRED)
-find_package(Qt5Charts REQUIRED)
 
 include_directories(${Qt5Widgets_INCLUDES})
 
