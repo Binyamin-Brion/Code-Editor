@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(PerformanceMonitor)
+project(CodeEditor)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -25,6 +25,6 @@ qt5_wrap_cpp(MOC_SRCS ${MOC_HEADERS})
 
 set(SOURCE_FILES main.cpp MainWindow.cpp MainWindow.h DirectoryView.cpp DirectoryView.h ParentChildTree.cpp ParentChildTree.h TestParentChildTree.cpp TestParentChildTree.h TestSuite.cpp TestSuite.h CodeViewer.cpp CodeViewer.h CodeHighlighter.cpp CodeHighlighter.h FileViewer.cpp FileViewer.h CounterWriter.cpp CounterWriter.h TestCounterWriter.cpp TestCounterWriter.h CounterList.cpp CounterList.h CounterSelection.cpp CounterSelection.h ScrollArea.cpp ScrollArea.h ScrollCommands.cpp ScrollCommands.h ScrollCommandValues.cpp ScrollCommandValues.h PerformanceGraph.cpp PerformanceGraph.h)
 
-add_executable(PerformanceMonitor ${SOURCE_FILES})
+add_executable(CodeEditor ${SOURCE_FILES})
 
-target_link_libraries(PerformanceMonitor ${Qt5Widgets_LIBRARIES} ${Qt5Test_LIBRARIES} ${Qt5Charts_LIBRARIES})
+target_link_libraries(CodeEditor ${Qt5Widgets_LIBRARIES} ${Qt5Test_LIBRARIES} ${Qt5Charts_LIBRARIES})
