@@ -10,32 +10,6 @@
 #include <QtTest/QtTest>
 #include <pdh.h>
 
-/*void TestCounterWriter::testOneMeasure()
-{
-    std::vector<std::string> testFileNames{"OneMeasure.cpp"};
-
-    auto resultFileNames = createExpectedFileVector(testFileNames);
-
-    std::vector<QString> testFileContents;
-
-    std::vector<QString> resultFileContents;
-
-    loadFiles(testFileNames, resultFileNames, testFileContents, resultFileContents);
-
-    auto measurePoints = findMeasurePoints(resultFileContents[0], "OneMeasureExpectedcpp");
-
-    printf("Size of measure pointd: %d \n", measurePoints.size());
-
-    for(auto x : measurePoints)
-    {
-        printf("Measure points: %d \n", x);
-    }
-
-    std::vector<std::vector<int>> allMeasurePointa{measurePoints};
-
-    writeCounters(testFileNames, testFileContents, allMeasurePointa);
-}*/
-
 void TestCounterWriter::loadFiles(const std::vector<std::string> &testFilesNames, const std::vector<std::string> &resultFilesNames,
                                   std::vector<QString> &testfileContents, std::vector<QString> &resultFileContents)
 {
