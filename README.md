@@ -10,7 +10,7 @@
 This allows me to quickly put in proper PDH commands without having to keep going to Microsoft's documentation. 
 
    PDH refers to utilities that Microsoft provides to get performance data about a program. It can be used from the command line (CMD.exe) 
-to get data  of the entire program, but code that calls those utilites can be placed within code to measure specific parts of a program.
+to get data  of the entire program, but calls to those utilites can be placed within code to measure specific parts of a program.
 
    This program works using the following steps:
    
