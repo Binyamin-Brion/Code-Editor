@@ -10,7 +10,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-set(MOC_HEADERS MainWindow.h CounterSelection.h CompilerSelection.h)
+set(MOC_HEADERS MainWindow.h CounterSelection.h)
 
 set(CMAKE_PREFIX_PATH "C:\\Qt\\Qt5.11.2\\5.11.2\\mingw53_32")
 
@@ -19,7 +19,7 @@ find_package(Qt5Test REQUIRED)
 
 include_directories(${Qt5Widgets_INCLUDES})
 
-qt5_wrap_ui(UI_HEADERS mainwindow.ui CounterSelection.ui CompilerSelection.ui)
+qt5_wrap_ui(UI_HEADERS mainwindow.ui CounterSelection.ui)
 
 qt5_wrap_cpp(MOC_SRCS ${MOC_HEADERS})
 
