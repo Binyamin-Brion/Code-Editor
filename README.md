@@ -29,5 +29,5 @@ to get data  of the entire program, but code that calls those utilites can be pl
      Improvements can be made though:
      
      1) Improve Regex expressions to provide better syntax highlighting (sometimes there are mistakes)
-     2) Use PIMPL idiom to reduce compile times.
+     2) Use PIMPL idiom to reduce compile times
      
