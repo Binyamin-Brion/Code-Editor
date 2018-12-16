@@ -19,7 +19,7 @@ to get data  of the entire program, but calls to those utilites can be placed wi
             Open Project opens an exisiting project and saves are written there.
    
    2) The now opened project will display files on the left in using a tree. Only files that are listed in a SOURCE_FILES variable in the
-      CMake file can be openend. Boxes next to the selected file names can be clicked in order to open the file, and clicked again to close
+      CMake file can be opened. Boxes next to the selected file names can be clicked in order to open the file, and clicked again to close
       it. Opened files can be switched to by clicking the appropriate file tabs at the top of the text editing area.
       
    3) In the top right is a drop down menu that opens related counters to the resource that is to be measured in the scroll area below it. 
