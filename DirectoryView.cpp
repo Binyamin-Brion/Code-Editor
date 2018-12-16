@@ -244,44 +244,6 @@ void DirectoryView::loadDirectoryInformation(QString directory, QString newSaveD
     }
 }
 
-void DirectoryView::openNewProject()
-{
-    // TODO: Finish procedure for user opening a project. This is not done yet as testing as with a file dialog is impossible
-    // TODO: as there in a bug that causes the entire program to stall
-
-   /* QFileDialog dialog(this);
-
-    dialog.setFileMode(QFileDialog::Directory);
-
-    dialog.setOption(QFileDialog::DontUseNativeDialog);
-
-    dialog.setWindowTitle("Select the Folder That Contains the Project to be Worked On");
-
-    dialog.setDirectory("");
-
-    if(dialog.exec())
-    {
-        QStringList fileSaveLocation = dialog.selectedFiles();
-
-        setRootPath(fileSaveLocation.first());
-
-       // QString text = QInputDialog::getText(this, tr("Please Enter Name of This Project"), tr("Project Name"), QLineEdit::Normal, "");
-
-
-        bool ok = false;
-
-        int i = -1;
-
-        QInputDialog::getInt(this, tr("QInputDialog::getInteger()"),
-                             tr("Percentage:"), 25, 0, 100, 1, &ok);
-
-        printf("%d, %d \n", ok, i);
-
-    } */
-
-   // setRootPath("C:\\Users\\Biny Brion\\Pictures\\PerformanceMonitor");
-}
-
 QString DirectoryView::getSaveLocation()
 {
     return savedPath;
