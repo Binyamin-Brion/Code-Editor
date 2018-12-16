@@ -138,9 +138,6 @@ void CodeViewer::hideCodeFile(QString fileName)
 
 void CodeViewer::writeChanges(QString saveDirectory)
 {
-    // Note: This code is not totally safe, as if there is an error when writing to disk, everything is lost as files are truncated when written to.
-    // Note: Attempt to remedy this issue by temporarily renaming files as well as copying lead to program crashes for unknown reasons. This method below is faster however to do.
-
     // Write files to disk to save changes
 
     std::ofstream fileWriter;
